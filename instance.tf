@@ -12,7 +12,7 @@ resource "aws_instance" "public-web-ec2" {
 
       instance_type = "t2.micro"
 
-      availability_zone = "ap-south-1a"
+      availability_zone = "ap-south-1b"
 
       key_name = "docker-key"
 
